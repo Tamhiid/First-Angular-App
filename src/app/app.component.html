@@ -1,0 +1,5 @@
+<post-header></post-header>
+<main>
+    <app-post-create (postCreated)="onPostAdded($event)" ></app-post-create>
+    <app-post-list [posts]="StoredPosts"></app-post-list>
+</main>
